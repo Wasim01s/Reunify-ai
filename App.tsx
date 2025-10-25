@@ -1,8 +1,7 @@
-
 import React, { useState, useCallback } from 'react';
-import { Header } from './components/Header';
-import { ImageUploader } from './components/ImageUploader';
-import { ResultDisplay } from './components/ResultDisplay';
+import { Header } from './components/header';
+import { ImageUploader } from './components/imageUploader';
+import { ResultDisplay } from './components/resultDisplay';
 import { generateReunificationImage } from './services/geminiService';
 
 const App: React.FC = () => {
